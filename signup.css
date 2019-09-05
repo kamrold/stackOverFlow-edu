@@ -23,8 +23,8 @@
     padding:14px 28px;
     font-size: 16px;
     border-radius: 5px;
-    cursor: pointer
-    display:inline-block;
+    cursor: pointer;
+    display: inline-block;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -91,5 +91,5 @@
     border: 1px solid #ccc;
   }
 }
-*/
+
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
