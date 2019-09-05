@@ -4,5 +4,5 @@ A website that allows users to post questions, answer questions, rate them and a
 ## Author
 Roland B
 
-##Tech used
+## Tech used
 Html, Css, javasccript
