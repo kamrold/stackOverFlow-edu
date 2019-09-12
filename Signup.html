@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="styles1.css">
+ 
 <head>
-  <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no"/>
+  <meta name="viewport" content=" width=device-width,initial-scale=1, user-scalable=no"/>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.css">
-<script src="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.js"></script>
-<style type="text/css" href="signup.css"></style>
+ 
+ <link rel="stylesheet" type="text/css" href="sign in.css">
     <title>Sign up page</title>
 </head>
 <body>
@@ -39,7 +39,26 @@
     </div>
   </div>
 </form>
- 
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDlOp261jzzBP4yTxhipUR1uwzedIhxV3g",
+    authDomain: "stackoverflow-edu-rb.firebaseapp.com",
+    databaseURL: "https://stackoverflow-edu-rb.firebaseio.com",
+    projectId: "stackoverflow-edu-rb",
+    storageBucket: "",
+    messagingSenderId: "402304736401",
+    appId: "1:402304736401:web:0577c68d5b127f059df330"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
-<body>
+
