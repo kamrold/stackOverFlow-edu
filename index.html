@@ -1,89 +1,51 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no"/>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-  <link rel="stylesheet" type="text/css" href="signup.css">
-  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="index.css">
 <head>
 
-  <title>StackOverflow-edu</title>
+  <title>Side Nav</title>
 </head>
 <body>  
-    <header>
-  <div class="topnav">
-      <a class="active" href="#home"><img src="images/Core 1.1 .jpg" width="120px"></a>
-       <a href="#about">About</a>
-       <a href="#about">Use cases</a>
-       <a href="#contact">Products</a>
-       <a href="Signin.html"><button>Sign in</button></a>
-       <a href="signup.html"><button>Sign Up</button></a>
-     <input type="text" placeholder="Search..">
+    <div class="jumbotron">
+  <h1 class="display-8">STACKOVERFLOW-EDU</h1>
+  <p class="lead">This is a simple web app that can be used to ask questions and also find answers to the questions you are looking for.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+  
+  <!-- Side navigation -->
+  
+     <div class="sidenav">
+      <a href="Login.html"><button>Login</button></a>
+       <a href="Signup.html"><button>Signup</button></a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">FAQ's</a>
+      <a href="images/AI.jpg">Use Cases</a>
   </div>
 
-    <div class="container">
-      
-      <div class="text-block">
-       <h1>COMING SOON</h1>
-       <h4>For Developers, By Developers</h4>
-       
-       <p>Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</p>
-      </div>
-    </div>
-   
-
-  <img src="images/water.jpg" alt="AI" width="100%">
-   
-  <div class="centered"><button class="btn">For Developers</button><button class="btn">For Business</button></div>
+   <div class="main">
+     <div id="voting">
+    <div class="upvote"></div>
+    <div class="downvote"></div>
 </div>
-        
-        </div>
-        <section class ="section">
-           <div class="card-img-overlay text-right">
-              <h4 class="card-title"></h4>
-              <p class=" card-text"></p>        
-           </div>
-       <div class="card-img-overlay text-right">
-          <h4 class="card-title"></h4>
-          <p class=" card-text"></p>
-        
-       </div>
-
-        </section>
-      </header>
-      <div class="Footer_outer">
-  <div class="Footer_inner_left">Copyright 2019 </div>
-  <div class="Footer_inner_right">About us | privacy | terms </div>
+<form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Ask Question?</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Question goes here">
+    <button id="down">Delete</button>
+  </div><br><br>
+   <div class="buttons">
+<button id="down">Upvote</button>
+    <p id="downvote"><label for="formGroupExampleInput"></label><input type="text-area" class="form-control" id="formGroupExampleInput" placeholder="Answer goes here"></p>
+<button id="up">Downvote</button>
+    <p id="upvote"></p>
 </div>
-<aside>
-  <h2>Related links</h2>
-  <nav>
-    <ul>
-      <li><a href="#">10 things about HTML4</a></li>
-      <li><a href="#">10 things about CSS3</a></li>
-      <li><a href="#">10 things about JavaScript</a></li>
-    </ul>
-</nav>
-</aside>
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+</form>
+   </div>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#config-web-app -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDlOp261jzzBP4yTxhipUR1uwzedIhxV3g",
-    authDomain: "stackoverflow-edu-rb.firebaseapp.com",
-    databaseURL: "https://stackoverflow-edu-rb.firebaseio.com",
-    projectId: "stackoverflow-edu-rb",
-    storageBucket: "",
-    messagingSenderId: "402304736401",
-    appId: "1:402304736401:web:0577c68d5b127f059df330"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-     </body>
+ </body>
 </html>
