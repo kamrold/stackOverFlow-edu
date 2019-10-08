@@ -1,4 +1,28 @@
- let sum = function (a,b){
- 	return a + b;
- }
- module.exports = sum;
+{
+  "name": "stackoverflow-edu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrold/stackOverFlow-edu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrold/stackOverFlow-edu/issues"
+  },
+  "homepage": "https://github.com/kamrold/stackOverFlow-edu#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
