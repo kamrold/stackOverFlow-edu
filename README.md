@@ -5,4 +5,6 @@ A website that allows users to post questions, answer questions, rate them and a
 Roland B
 
 ## Tech used
-Html, Css, javasccript
+- Html
+- Css
+- javasccript
